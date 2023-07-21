@@ -10,8 +10,8 @@ class TextWidget extends StatelessWidget {
     return const Text(
       "Flutter",
       style: TextStyle(
-        fontSize: 40.0,
-        color: Colors.blueAccent,
+        fontSize: 20.0,
+        color: Colors.white,
         fontWeight: FontWeight.bold,
       ),
     );
