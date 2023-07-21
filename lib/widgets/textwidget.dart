@@ -11,7 +11,7 @@ class TextWidget extends StatelessWidget {
       "Flutter",
       style: TextStyle(
         fontSize: 20.0,
-        color: Colors.white,
+        color: Colors.black,
         fontWeight: FontWeight.bold,
       ),
     );
