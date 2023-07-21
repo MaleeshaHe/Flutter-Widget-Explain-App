@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_explain_app/textwidget.dart';
+import 'package:widget_explain_app/widgets/container_widget.dart';
+import 'package:widget_explain_app/widgets/textwidget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -8,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: TextWidget(),
+        child: ContainerWidget(),
       ),
     );
   }
