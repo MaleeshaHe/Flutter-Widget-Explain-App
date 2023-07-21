@@ -44,17 +44,34 @@ class TextToSpeech extends StatelessWidget {
               const SizedBox(
                 height: 25,
               ),
-              Column(
-                children: const [
-                  ListCard(),
-                  ListCard(),
-                  ListCard(),
-                  ListCard(),
-                  ListCard(),
-                  ListCard(),
-                  ListCard(),
-                ],
-              )
+              Container(
+                height: 500,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                      ListCard(),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
