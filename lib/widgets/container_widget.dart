@@ -7,7 +7,7 @@ class ContainerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 300,
+      width: 150,
       height: 55,
       decoration: const BoxDecoration(
         color: Colors.blue,
