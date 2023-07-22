@@ -28,7 +28,7 @@ class ButtonWidget extends StatelessWidget {
             ),
             OutlinedButton(
               onPressed: () {},
-              child: Text("Click"),
+              child: const Text("Click"),
             )
           ],
         ),
