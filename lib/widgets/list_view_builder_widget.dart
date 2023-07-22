@@ -105,7 +105,7 @@ class _ListViewBuilderWidgetState extends State<ListViewBuilderWidget> {
                               textAlign: TextAlign.left,
                               overflow: TextOverflow.ellipsis,
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 12,
                             ),
                             Text(
@@ -118,14 +118,14 @@ class _ListViewBuilderWidgetState extends State<ListViewBuilderWidget> {
                               textAlign: TextAlign.left,
                               overflow: TextOverflow.ellipsis,
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 12,
                             ),
                             Chip(
                               backgroundColor: Colors.green,
                               label: Text(
                                 movies[index]["rating"].toString(),
-                                style: TextStyle(color: Colors.white),
+                                style: const TextStyle(color: Colors.white),
                               ),
                             ),
                           ],
