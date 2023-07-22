@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widget_explain_app/screens/screen1.dart';
 import 'package:widget_explain_app/widgets/slider_widget.dart';
 
 class HomePage extends StatelessWidget {
