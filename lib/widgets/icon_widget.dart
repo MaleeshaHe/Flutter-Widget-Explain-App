@@ -21,9 +21,9 @@ class IconWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              child: Row(
+              child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
+                children: [
                   Text(
                     "Click Here",
                     style: TextStyle(
@@ -40,9 +40,9 @@ class IconWidget extends StatelessWidget {
                 ],
               ),
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Icon(
                   Icons.favorite_rounded,
                   size: 50,

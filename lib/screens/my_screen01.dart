@@ -39,9 +39,9 @@ class MyScreen01 extends StatelessWidget {
               const SizedBox(
                 height: 40,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: const [
+                children: [
                   Icon(
                     Icons.favorite_rounded,
                     size: 50,
